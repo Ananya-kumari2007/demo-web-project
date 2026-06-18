@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nykaa Clone</title>
+    <link rel="stylesheet" href="NY.css">
+
+</head>
+<body>
+
+    <nav>
+        <div class="logo">NYKAA</div>
+
+        <div class="cart-btn" onclick="toggleCart()">
+            🛒 Cart (<span id="cart-count">0</span>)
+        </div>
+    </nav>
+
+    <header>
+        <h1>Beauty Products Collection</h1>
+        <p>Discover Your Beauty</p>
+    </header>
+
+    <section class="products" id="product-container"></section>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <h2>Shopping Cart</h2>
+
+        <div id="cart-items"></div>
+
+        <h3>Total: ₹<span id="total-price">0</span></h3>
+
+        <button class="checkout-btn">Checkout</button>
+    </div>
+
+    <script src="NY.js"></script>
+</body>
+</html>
+/*hello*/
